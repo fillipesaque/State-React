@@ -1,0 +1,32 @@
+
+.ContainerBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ContainerBtn button{
+    padding: 10px;
+    background: linear-gradient( #8e44ad, #c39bd3 );
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: transparent;
+    width: 120px;
+    transition: .3s;
+    cursor: pointer;
+}
+.ContainerBtn button:hover{
+    margin-left: 1rem;
+    background: linear-gradient( #c39bd3 ,#8e44ad  );
+}
+
+.ContainerBtn p{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    line-height: 1px;
+}
